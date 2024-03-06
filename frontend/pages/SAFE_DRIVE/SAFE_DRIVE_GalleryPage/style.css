@@ -1,0 +1,50 @@
+body{
+    background-color: darkcyan;
+    margin: 20px;
+    border: 2px;
+    border-color: rgb(14, 14, 13);
+    padding: 20px;
+}
+.main{
+    color: black;
+    text-align: center;
+   font-size: 300%;
+}
+
+.pain{
+    color: black;
+}
+.cmain{
+    font-size: 200%;
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 5px;
+    border-color: black;
+}
+.more-options {
+  display: none;
+}
+.show-more {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: cadetblue;
+}
+
+.photo{
+    width: 400px; 
+    height: 320px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    margin: 10px;
+    border-color: dimgray;
+    
+}
+.sub{
+    text-align: center;
+}

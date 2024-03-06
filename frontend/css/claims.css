@@ -1,0 +1,219 @@
+section {
+    display: flex;
+    align-items: center;
+}
+
+.claims-content {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(60, 60, 60);
+}
+
+
+.claim-content-table {
+    width: 100%;
+}
+
+.claim-content-table tr td {
+    padding-bottom: 20px;
+    /* background-color: red; */
+}
+
+
+
+.claim-content-table td:nth-child(3) {
+    padding-left: 20px;
+
+}
+
+/* inputs */
+
+.claim-content-table tr input {
+    width: calc(100% - 10px);
+    height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    border: 1px solid rgb(100, 100, 100);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+@media(max-width: 800px){
+
+    .claims-content {
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .claim-content-table td:nth-child(3) {
+        padding-left: 0px;
+    }
+    
+    .claim-content-table tr td {
+        padding-bottom: 0px;
+    }
+    
+    .claim-content-table td:nth-child(1) {
+        width: 100%;
+    }
+
+    .claim-content-table tr td {
+        display: block;
+    }
+
+    .claim-content-table tr td:nth-child(1) {
+        padding-top: 20px;
+    }
+
+    .claim-content-table tr td:nth-child(2) {
+        padding-top: 5px;
+    }
+    
+    .claim-content-table tr:nth-child(1) td {
+        display: block;
+    }
+
+    .claim-content-table td:nth-child(3) {
+        justify-content: left;
+        padding-top: 10px;
+    }
+
+    .claim-content-table tr:nth-child(1) td:nth-child(1){
+        padding-top: 0px;
+    }
+    
+}
+
+
+@media(max-width: 500px){
+
+    .claims-content {
+        width: 100%;
+    }
+
+}
+
+
+/* claim deatils */
+
+.claim-detail-table-1{
+    width: calc(100% - 20px);
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 20px;
+    /* background-color: red; */
+}
+
+.claim-detail-table tr td{
+    padding-bottom: 20px;
+}
+
+
+.claim-detail-table tr td:nth-child(1) {
+    /* background-color: red; */
+    width: 200px;
+}
+
+.claim-detail-table tr td:nth-child(2) {
+    padding-right: 10px;
+}
+
+
+.claim-detail-table tr td:nth-child(3) {
+    /* background-color: red; */
+    width: 200px;
+    padding-left: 10px;
+}
+
+.claim-detail-table tr input {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    /* border: none; */
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    /* text-align: center; */
+    border: 1px solid rgb(100, 100, 100);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.claim-detail-table tr td:nth-child(4) input {
+    width: calc(100% - 10px);
+}
+
+
+
+.claim-detail-table-2{
+    width: 100%;
+    margin: auto;
+}
+
+.submit-button{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.submit-button input{
+    width: 150px;
+    height: 30px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgb(35, 35, 35);
+}
+
+.submit-button input:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+@media(max-width: 800px){
+
+    .claim-detail-table tr td {
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .claim-detail-table tr td:nth-child(1) {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        
+    }
+
+    .claim-detail-table tr td:nth-child(3) {
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    .submit-button input{
+        margin-top: 20px;
+    }
+
+}
+
+/* error message */
+
+.error-message{
+    margin-top: 2px;
+    font-size: 13px;
+    color: red;
+    display: none;
+}
